@@ -1,0 +1,43 @@
+
+
+h1, h2 {
+    font-family: 'Wire One', sans-serif;
+    font-size: 54px; 
+    color: black
+}
+
+nav {
+    font-family: 'Wire One', sans-serif;
+    font-size: 34px; 
+    color: black    
+}
+
+nav-item {
+    display: inline; 
+    
+}
+
+
+.bg-1{
+    background-color: white; /* white */ 
+}
+.bg-2{
+    background-color: white; /* gul */   
+}
+.bg-3{
+    
+    background-color: #D3E3EA; /* lyseblå */
+    
+}
+.bg-4{
+    background-color: lightcoral;/* korallfarge */
+    
+}
+.container-fluid{
+    padding-top: 70px; 
+    padding-bottom 70px;      
+}
+.row
+{
+    height; 300px
+}

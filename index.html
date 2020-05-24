@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8">  
+    <!-- responsivitet - fjernet shrink to fit = no --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS - fra bootstrap siden - script fra w3shchools -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    
+    <!-- Egen CSS --> 
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+    <!-- font-familien--> 
+    <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+    
+    <!-- foreløpig tab tittel -->
+    <title>se alt hør alt gjør alt</title>
+    
+</head>
+
+<body>
+    
+    
+    <!-- FØRSTE SIDE /HOVEDSIDE - HOME --> 
+    
+    <!-- kilde: w3schools bootstrap themes --> 
+    <!-- er siden responsiv?? --> 
+    <!-- bg=bakgrunn og text center sier hvor texten skal være -->
+    <!-- hvordan endre størrelse og form på bilde? Fikk ikke til sirkel--> 
+    <!-- fluid container betyr at innhold bruker hele bredden uavhengig av skjermstørrelse--> 
+    <!-- bør jeg i første kontainer lage grid for å vise tre ulike alternativer?--> 
+  
+    <div class="container-fluid bg-1 text-center">
+        <h1> HVA SKJER? </h1>
+        <h2> en guide til barn og foreledre som er allergisk mot kjedsomhet</h2>
+        <h3>men det skal jeg ikke gjøre igjen </h3>
+   
+    <!--navigsjonslinje - kilde fra Ademind https://www.youtube.com/watch?v=23bpce-5s8I --> 
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="#" class="navbar-brand"> SEHØRGJØR </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link"> INNE AKTIVITETER </a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> UTE AKTIVITETER </a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> ER DET SUNDT Å KJEDE SEG? </a></li>
+            </ul>
+            
+            </div>
+            
+ 
+        
+        </nav>
+        
+        
+        
+        
+        
+        
+        <!--navigasjonslinjen- MÅ REDIGERE - horistontal-- kilde -->
+    
+    <nav class="navbar navbar-expand-md bg-light justify-content-center">
+       <div class=containter-fluid bg-0 text center>      
+            <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"> HJEM </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"> AKTIVITETER INNE </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"> AKTIVITETER UTE </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"> ER DET SUNDT Å KJEDE SEG? </a>
+                    </li>
+                </ul>     
+            </div>
+        </nav>        
+    </div>
+    
+
+    
+    
+    
+    <!-- HOVEDSIDE - ny containter med bakgrunnsfarge (husk å endre) + tekst -->
+    <!-- i denne containeren er målet å lage seks bilder i to rader med mye padding rundt--> 
+    <!-- nå er kolonnene definert som sm-4 - husk at hvis jeg vil at de skal for eksempel bli lagt over hverandre på mobil må jeg legge inne flere koder - se acedemind using the bootstrap 4 grid--> 
+    <div class="container-fluid bg-2 text-center">
+        <div class="row justify-content-between align-items-centre">
+            
+            <!-- for å få mer avstand mellom de ulike kolonnene må jeg style kolonnene - for eksempel min-kolonne og så css--> 
+            <div class="col-sm-4">
+                <img class="img-fluid" img src="jeg.jpg" class="img-responsive" style="width 100%" alt="gulfirkant">
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" img src="meg.jpg" class="img-responsive" style="width 100%" alt="sol">
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" img src="gleder.jpg" class="img-responsive" style="width 100%" alt="sol">
+            </div>
+            <div class="col-sm-4">
+        </div>
+            
+               
+    
+       <!-- UNDERSIDE 1 - UTEAKTIVITETER - ny containter med bakgrunnsfarge (husk å endre) + tekst -->
+    <div class="container-fluid bg-3 text-center">
+        <h3>Tips til deg som vil være ute i helgen</h3>
+        
+        <div class="row justify-content-between align-items centre">
+        <div class="col-sm-4">
+            <!-- forsøk på å få karusell som en fjerdedel av kollonnen --> 
+                        
+                <img class="img-fluid" img src="FridaCalifornia.jpg" class="img-responsive" style="width 100%" alt="frida">
+            </div>
+        
+                <!-- sett inn bilde av aktiviteten her + pass på at rad+kolonne deler seg også ved store og medium skjermer-->
+            <div class="col-sm-8">.col-sm-8</div>
+        </div>    
+         
+                <!-- sett in text med beskrivelse av aktiviteten her--> 
+    
+       <!-- ny containter med bakgrunnsfarge (husk å endre) + tekst-->
+    <div class="container-fluid bg-4 text-center">
+    <h3>Gjør alt alt?</h3>
+    <p>Lorem ipsum..</p>
+    </div>    
+           
+           
+</body>
+</html>
